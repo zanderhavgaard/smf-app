@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Smf</string>
+
+    <!--dev stuff-->
+    <string name="title_feed">FEED</string>
+    <string name="title_makepost">POST</string>
+    <string name="title_account">PROFILE</string>
+
+
+    <!--login fragment-->
+    <string name="logo">Logo</string>
+    <string name="login_username">Username: </string>
+    <string name="login_password">Password: </string>
+    <string name="login_button_text">Log in</string>
+    <string name="before_signup_text">Don\'t have an account?</string>
+    <string name="login_signup_button_text">Sign up!</string>
+
+    <!--signup fragment-->
+    <string name="signup_username">Username: </string>
+    <string name="signup_password">Password: </string>
+    <string name="signup_email">Email: </string>
+    <string name="signup_country">Country: </string>
+    <string name="signup_birthYear">Birth year: </string>
+    <string-array name="signup_country_spinner">
+        <item>Denmark</item>
+        <item>United Kingdom (UK)</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Ireland</item>
+        <item>Norway</item>
+        <item>Sweden</item>
+        <item>United States of America (USA)</item>
+    </string-array>
+    <string name="signup_button_createaccount">Create account</string>
+    <string name="signup_button_backtologin">Log in</string>
+    <string name="before_login_text">Already have an account?</string>
+
+    <!--maketextpost fragment-->
+    <string name="maketextpost_header">NEW TEXT POST</string>
+    <string name="maketextpost_uploadbutton">Post!</string>
+
+    <!--makepicturepost fragment-->
+    <string name="makepicturepost_header">NEW PICTURE POST</string>
+    <string name="makepicturepost_uploadbutton">Post!</string>
+    <string name="makepicturepost_takepicturebutton">Take a picture</string>
+    <string name="makepicturepost_rotatepicturebutton">Rotate picture</string>
+
+    <!--profile fragment-->
+    <string name="profile_username_desc">Username: </string>
+    <string name="profile_email_desc">Email: </string>
+    <string name="profile_country_desc">Country: </string>
+    <string name="profile_birthyear_desc">Birthyear: </string>
+    <string name="profile_button_logout">Log out</string>
+
+    <!--feed fragment-->
+    <string name="not_liked">Not Liked Yet</string>
+    <string name="liked">Liked</string>
+    <string name="likes_no">0</string>
+
+</resources>

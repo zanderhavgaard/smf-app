@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/border_shadow"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:fontFamily="@font/nexab"
+        android:id="@+id/view_picturepost_textview_username"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:fontFamily="@font/nexab"
+        android:id="@+id/view_picturepost_textview_timestamp"
+        />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_picturepost_imageview_picture"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/view_post_imageview_like_not"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/not_liked"
+            android:src="@drawable/liked_not"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/view_post_textview_numlikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/likes_no"
+            android:layout_toRightOf="@id/view_post_imageview_like_not"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

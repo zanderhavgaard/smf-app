@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/makepicturepost_textview_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/title_feed"
+        android:fontFamily="@font/phosphate"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:background="@drawable/border_shadow"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/makepicturepost_imageview_picure"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/makepicturepost_button_takenewpicture"
+            android:background="@drawable/signup_bg"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/nexal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/makepicturepost_button_rotatepicture"
+            android:background="@drawable/signup_bg"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/nexal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/makepicturepost_button_uploadnewpostbutton"
+            android:background="@drawable/signup_bg"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/nexal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
